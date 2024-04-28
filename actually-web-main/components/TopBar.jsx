@@ -6,4 +6,4 @@ export default function TopBar(){
             <div>search</div>
         </top>
     );
-})
+}
