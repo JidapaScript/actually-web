@@ -1,36 +1,21 @@
-import TopicCard from @/components/TopicCard
-
 export default function Feed() {
   return (
     <section className="flex-row justify-between w-3/4">
       <div className="flex-column justify-start space-y-30">
-        <TopicCard
-        label={"Are cats or dogs the better pet?"}
-        comment={"1215"}
+        <topicCard
+          featureImage="alec-favale-Ivzo69e18nk-unsplash.jpg"
+          title="Are cats or dogs the better pet?"
+          takeCount="1251"
         />
-        <TopicCard 
-        label={"Are hot dogs, sandwiches?"}
-        comment={"328"}
+        <topicCard
+          featureImage="peter-secan-kKXBw9Exn30-unsplash.jpg"
+          title="Are hot dogs, sandwiches?"
+          takeCount="328"
         />
-        <TopicCard 
-        label={"What does the fox say?"}
-        comment={"1309"}
-        />
-        <TopicCard 
-        label={"Coffee or tea, which is the better drink?"}
-        comment={"142"}
-        />
-        <TopicCard 
-        label={"Does Pineapple belong on pizza?"}
-        comment={"6899"}
-        />
-        <TopicCard 
-        label={"Is water considered wet?"}
-        comment={"5219"}
-        />
-        <TopicCard 
-        label={"Gen Z vs. Gen alpha, who wins?"}
-        comment={"7884"}
+        <topicCard
+          featureImage="erik-mclean-OVWn1sbGIYQ-unsplash.jpg"
+          title="What does the fox say?"
+          takeCount="1309"
         />
       </div>
     </section>
