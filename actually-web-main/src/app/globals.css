@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
-  @layer bg-woodsmoke-950 font-inter;
+  background: #171717;
+  font-family: "Inter", sans-serif;
 }
