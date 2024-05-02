@@ -1,6 +1,8 @@
+import TopicCard from "@/app/components/TopicCard";
+
 export default function Feed() {
   return (
-    <section className="flex-row justify-between w-3/4">
+    <div className="flex-row justify-between w-3/4 min-h-[100vh]">
       <div className="flex-column justify-start space-y-30">
         <TopicCard
           featureimage="alec-favale-Ivzo69e18nk-unsplash.jpg"
@@ -18,6 +20,6 @@ export default function Feed() {
           takecount="1309"
         />
       </div>
-    </section>
+    </div>
   );
   }
