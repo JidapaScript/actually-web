@@ -6,7 +6,7 @@ export default function Profile(){
                 <img className="profile-settings" src="settings.svg"/>
             </div>
             <div className="profile-name-img flex-column justify-between space-y-24">
-                <img className="profile-img" src="profile_lg.svg"/>
+                <img className="profile-img-lg" src="profile_lg.svg"/>
                 <h3 className="text-2xl text-white font-semibold">Tom Jerry</h3>
             </div>
             <div className="profile-content flex-column justify-start space-y-14">
