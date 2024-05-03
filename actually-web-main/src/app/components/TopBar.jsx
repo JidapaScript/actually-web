@@ -1,6 +1,6 @@
 export default function TopBar(){
     return (
-        <top className="flex justify-between fixed bottom-0 w-full bg-black text-white p-8">
+        <top className="flex justify-between fixed bottom-0 w-full mx-20 my-12">
             <a href="/profile" className="profile-sm"> 
             <img className="profile-img-sm" src="profile_sm.png" alt="profile" /> 
             </a>

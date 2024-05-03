@@ -1,6 +1,6 @@
 export default function OppTake(){
     return (
-        <div className="take-against flex-column justify-items-end space-y-186 px-23 py-30 bg-transparent stroke-white stroke-1">
+        <div className="take-against flex-column justify-items-end space-y-94 w-1/4 px-23 py-30 bg-transparent border-white border-1">
             <div className="take-but-content flex-column justify-start space-y-33">
                 <div className="but-actually flex-row justify-start space-x-20">
                     <a href="#" className="profile-other"> 

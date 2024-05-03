@@ -1,6 +1,6 @@
 export default function MainTake(){
     return (
-        <div className="take-for flex-column justify-items-end space-y-186">
+        <div className="take-for flex-column justify-items-end w-3/4 space-y-300 bg-transparent border-white border-1">
             <div className="take-post flex-row justify-start space-x-34">
                 <div className="profile flex-row justify-start space-x-20">
                     <a href="/profile" className="profile"> 
@@ -19,12 +19,12 @@ export default function MainTake(){
                         </h6>
                     </div>
                 </div>
-                <div>
+                <div className="flex-row justify-end pace-x-14">
                     <a href="#"> <img className="icon-save" src="bookmark.svg"/> </a>
                     <a href="#"> <img className="icon-share" src="ios_share.svg"/> </a>
                 </div>
             </div>
-            <div className="take-engagement">
+            <div className="take-engagement flex-row justify-end space-x-8">
                 <a href="#"> <img className="icon-like" src="thumbs_up.svg"/> </a>
                 <a href="#"> <img className="icon-dislike" src="thumbs_down.svg"/> </a>
                 <a href="#"> <img className="icon-take" src="chat_bubble.svg"/> </a>
