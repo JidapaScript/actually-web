@@ -11,7 +11,7 @@ export default function Tag(props){
 }
 
 export default function Tag({
-    status = 'default'
+    status = 'inactive'
   }) {
     if (status === 'active') {
       return <a href="#" className="tag">

@@ -26,4 +26,4 @@ export default function Take() {
       </div>
     </div>
   );
-  }
+}

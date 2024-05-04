@@ -1,12 +1,34 @@
 import TopBar from "@/app/components/TopBar";
+import TopicCategories from "@/app/components/TopicCategories";
 import TopicCard from "@/app/components/TopicCard";
+import TodaysTopic from "@/app/components/TodaysTopic";
+import AddTopic from "@/app/components/AddTopic";
 
 export default function Feed() {
   return (
-    <feed className="">
+    <feed className="flex-column">
       <TopBar />
-      <div>Topic Categories</div>
-      <hr className="divider-line w-full h-px mt-12 bg-white"/>
+      <section className="category-swiper flex-row justify-center space-x-42">
+        <TopicCategories 
+          categoryname="For You"
+        />
+        <TopicCategories 
+          categoryname="Following"
+        />
+        <TopicCategories 
+          categoryname="Global"
+        />
+        <TopicCategories 
+          categoryname="Politics"
+        />
+        <TopicCategories 
+          categoryname="Ethics"
+        />
+        <TopicCategories 
+          categoryname="Food"
+        />
+      </section>
+      <hr className="divider-line w-full h-px mt-16 mb-42 bg-white"/>
       <div className="feed-content flex-row justify-between mx-36">
         <div className="feed-topics flex-row justify-between w-3/4 min-h-[100vh]">
           <div className="first-column flex-column justify-start space-y-30">
@@ -53,11 +75,11 @@ export default function Feed() {
             />
           </div>
         </div>
-        <div className="side-bar flex-column justify-between">
-          <div>Today's Topic</div>
-          <div>What's on your mind?</div>
+        <div className="side-bar flex-column justify-between space-y-24 w-1/4">
+          <TodaysTopic />
+          <AddTopic />
         </div>
       </div>
     </feed>
   );
-  }
+}

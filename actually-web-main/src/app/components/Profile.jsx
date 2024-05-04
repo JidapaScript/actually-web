@@ -1,6 +1,6 @@
 export default function Profile(){
     return (
-        <div className="flex-column justify-start items-center p-24">
+        <div className="flex-column justify-start items-center p-24 bg-transparent stroke-white stroke-1">
             <div className="profile-heading flex-row justify-between w-[265px]">
                 <h5 className="text-base text-white font-semibold">Profile</h5>
                 <img className="profile-settings" src="settings.svg"/>
